@@ -1,0 +1,43 @@
+For this assignment, you will write JavaScript code for the four exercises listed below. 
+When finished, you should submit your solutions (one JavaScript (.js) file per solution) *my lab instructor said one html is fine*
+to this assignment.  Be sure to document your work with comments for code management. 
+
+For each problem, you should first describe your solution in English - as a set of JavaScript comments. 
+Once you have written down how you will solve the problem, THEN you will write the code. Submissions 
+without a "plan" will not receive full credit.
+
+Exercise 1 - Display a Triangle
+Write a loop that makes seven calls to output the following triangle:
+
+code output showing a triangle of 7 hashtags
+#
+##
+###
+####
+#####
+######
+#######
+
+Exercise 2 - FizzBuzz
+Write a program that prints all the numbers from 1 to 100, with two exceptions. 
+For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead.
+
+Exercise 3 - Modify FizzBuzz
+Modify the FizzBuzz program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 
+(and still print "Fizz" or "Buzz" for numbers divisible by 3 or 5, respectfully.)
+
+Exercise 4 - Chessboard
+Write a program that creates a string that represents an N×N grid, using newline characters to separate lines. 
+At each position of the grid there is either a space or a "#" character. The characters should form a chessboard. 
+(Output should show something like the image below.)  Prompt for a value so that the program works for any size, 
+outputting a grid of the given width and height.
+
+output of chessboard showing eight rows of spaces and hashtags
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
