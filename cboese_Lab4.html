@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Caralyn Boese
+COP 2500
+Lab 4
+-->
+<title>Caralyn Boese Lab 4</title>
+</head>
+<body>
+<h1>Solution 1</h1>
+<script>
+
+// For solution one you must first create a variable and set it to an empty string
+// var triangleOne = '';
+// Then, you must create a for loop setting i = 0 and not greater than 7 and each time it increments by one
+// for (var i = 0; i  < 7; i++) {
+// After this, triangleOne needs to be set to # so you add this
+// triangleOne = triangleOne + '#';
+// Finally, you must print to the console
+// console.log(triangleOne);
+// }
+
+var triangleOne = '';
+  for (var i = 0; i < 7; i++) {
+    triangleOne = triangleOne + '#';
+    console.log(triangleOne);
+}
+</script>
+
+
+<h1>Solution 2</h1>
+<script>
+
+// For solution two you must create a for loop
+// Set i = 1 and make it so it can not go over 100 and increments by 1
+// Create an if statement where i is not divisible but is divisible by 3
+// print to the console "buzz" for these numbers
+// Create an else if where i is not divisible by 3 but is divisible by 5
+// print to the console "fizz" for these numbers
+// create an else statement to print all other numbers from 1 - 100
+
+  for (i=1; i<= 100; i++) {
+    if ( !(i%5) && (i%3)) {
+      console.log("Buzz");
+    } else if ( !(i%3)) {
+      console.log("Fizz");
+    } else {
+      console.log(i);
+    }
+  }
+
+</script>
+
+
+<h1>Solution 3</h1>
+<script>
+
+// Create a new if statement onto solution 2
+// For this new if statement, print to the console fizzbuzz for all numbers divisible by 5 and 3
+// Change if statement from solution 2 to an else if
+
+for (i=1; i<=100; i++) {
+    if ( !(i%5) && !(i%3) ) {
+        console.log('FizzBuzz');
+    } else if ( !(i%5) && (i%3)) {
+        console.log('Buzz');
+    } else if ( !(i%3) ) {
+        console.log('Fizz');
+    } else {
+        console.log(i);
+    }
+}
+
+</script>
+
+
+
+<h1>Solution 4</h1>
+<script>
+
+// First create 3 variables, one for size, one for the symbol and one for space
+// Set var size = 8 since there's 8 rows
+// Set var sybmbol = # since that's the symbol being used
+// Set var space set to an empty string with a space
+// Create a for loop and inside the parenthises set var i = 1 and less than or equal to size (8) and i incremets (for odd lines)by 1
+// Create a var named line and set it equal to an empty string
+// Create another for loop.  do the same thing from previous line but do it for var y (for even lines)
+// Inside the for loop, create an if statement for the the odd lines.
+// If i is divisible by 2, let the line equal a space else add the symbol.
+// then do the opposite for var y
+// finally print the var line to the console.
+
+var size = 8;
+var symbol = '#';
+var space = ' ';
+
+for (var i = 1; i <= size; i++) {
+  var line = '';
+
+  for (var y = 1; y <= size; y++){
+    if (i%2) {
+        if (y%2) {
+            line = line + space;
+        } else {
+            line = line + symbol;
+        }
+    } else {
+        if (y%2) {
+            line = line + symbol;
+        } else {
+            line = line + space;
+        }
+    }
+  }
+
+  console.log(line);
+}
+</script>
+
+</body>
+</html>
